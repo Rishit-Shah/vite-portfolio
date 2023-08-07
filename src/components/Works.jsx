@@ -26,9 +26,9 @@ const ProjectCard=({index,name,description,tags,image,source_code_link})=>{
     </div>
     </div>
     <div classname="mt-5">
-    <h3 classname="text-white font-bold text-[24px]">
+    <h3 classname="text-white font-bold text-[25px]">
     {name}</h3>
-    <p className="mt-2 text-secondary text-[14px]">{description}</p>
+    <p className="mt-2 text-secondary text-[19px]">{description}</p>
     </div>
     <div className="mt-4 flex flex-wrap gap-2">
     {tags.map((tag)=>(
@@ -57,8 +57,8 @@ const Works = () => {
     </motion.div>
     <div className="w-full flex">
     <motion.p variants={fadeIn("","",0.1,1)}
-    className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-    Below are my projects that showcase my skills and also describes tecghnologies used to create them.
+    className="mt-3 text-secondary text-[25px] max-w-3xl leading-[30px]">
+    Below are my projects that showcases my skills and also describes the technologies used to create them.
     </motion.p>
     </div>   
 

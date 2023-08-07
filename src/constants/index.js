@@ -116,57 +116,57 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Organizer/Volunteer",
+      company_name: "American Field Services",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Coordination with various students around the world and help them understand the indian traditions of that city",
+        "Supporting exchange students towards their career goals and encouragement for better development .",
+        "Organize events and meetups every week for all exchange students to socialize and connect with like-minded peers for the transformation of the program.",
+        "Globalize skills by residing at a traditional house and attend schools, making long lasting connections and outreaching them.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Team Lead",
+      company_name: "UNhack Hackathon 2022",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept-2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated and planned out the ideas on the various sources of the topics for Sustainable Development.",
+        "Researched and jotted down multiple methods along with actions and steps to prevent the problem roots. ",
+        "Explored and analyzed one such sustainable development issue based on wastage of construction materials.",
+        "Provided possible solutions and suggestions on storage and reusage of the left-out materials.",
       ],
     },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Web Developer",
+    //   company_name: "Shopify",
+    //   icon: shopify,
+    //   iconBg: "#383E56",
+    //   date: "Jan 2022 - Jan 2023",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
+    // {
+    //   title: "Full stack Developer",
+    //   company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
@@ -198,62 +198,62 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Snake GUI",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Graphical user interface-based platform that allows users to play, free-roam and record their scores on screen, providing a convenient and straightforward game to play and also useful in developing software skills for one's need.",
       tags: [
         {
-          name: "react",
+          name: "java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "GUI",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "game",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rishit-Shah/SNAKE-GAME.git",
     },
     {
-      name: "Job IT",
+      name: "Trading Buddy",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " A traditional website that helps user to keep record of various price change, volume, list of their shares from stock-market. Besides our provided user-guide eanbles users to start with the trading system and its fundamental rules. ",
       tags: [
         {
-          name: "react",
+          name: "jQuery",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "html5",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "css3",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Rishit-Shah/Traddingbuddy.git",
     },
     {
-      name: "Trip Guide",
+      name: "Quiz App",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive android application for users to play and explore on their mobile devices. It allows user to answer multiple questions with yes and no, then finally recieve the total core at the end of each quiz section.",
       tags: [
         {
-          name: "nextjs",
+          name: "android",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "java",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "app",
           color: "pink-text-gradient",
         },
       ],

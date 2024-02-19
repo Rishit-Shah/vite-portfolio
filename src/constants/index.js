@@ -23,7 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    YU_logo,
+    YU_Logo,
   } from "../assets";
   
   export const navLinks = [

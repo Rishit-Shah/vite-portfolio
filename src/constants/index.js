@@ -129,7 +129,11 @@ import {
        iconBg: "#383E56",
        date: "Sept 2023 - Present",
       points: [
-"Craft and execute user-friendly UI/UX designs for course layouts and modules at York University's Department of Education, using HTML and CSS to elevate the online learning journey. Responsibilities included organizing Moodle courses to align with procedures and foster an effective learning environment. I collaborated with students and professors to enhance understanding of the eClass portal's navigation and available support. Additionally, I adeptly troubleshooted and resolved issues pertaining to the course management system's status and database."
+    "Develop and implement intuitive UI/UX designs for course layouts and modules at York University's Department of Education, utilizing HTML and CSS to enhance online learning experiences.
+    "Organize Moodle courses to ensure compliance with procedures and create an optimal learning environment."
+    "Collaborate with students and professors to improve navigation and support on the eClass portal."
+    " Expertly troubleshoot and resolve issues related to the course management system's status and database"
+      
       ],
      },
 
@@ -146,7 +150,18 @@ import {
        iconBg: "#383E56",
        date: "Aug 2023 - Sept 2023",
       points: [
-        "I efficiently managed both online and in-store book orders while offering assistance to diverse customers. Additionally, I oversaw administrative tasks, supervised inventory, and ensured smooth operations. Proficiently handling rental and new books in a library, I maintained accurate financial records. Furthermore, I conducted regular maintenance of bookshelves, organizing them by author and publication dates for optimal accessibility.",
+          "Managed online and in-store book orders, providing diverse customer assistance."
+          "Oversaw administrative tasks, inventory supervision, and ensured operational efficiency."
+          "Maintained accurate financial records for rental and new books in a library setting."
+          "Conducted regular bookshelf maintenance, organizing by author and publication dates to optimize accessibility."
+
+
+
+
+
+
+      
+      
       ],
      },
 

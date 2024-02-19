@@ -129,7 +129,7 @@ import {
        iconBg: "#383E56",
        date: "Sept 2023 - Present",
       points: [
-    "Develop and implement intuitive UI/UX designs for course layouts and modules at York University's Department of Education, utilizing HTML and CSS to enhance online learning experiences.
+    "Develop and implement intuitive UI/UX designs for course layouts and modules at York University's Department of Education, utilizing HTML and CSS to enhance online learning experiences."
     "Organize Moodle courses to ensure compliance with procedures and create an optimal learning environment."
     "Collaborate with students and professors to improve navigation and support on the eClass portal."
     " Expertly troubleshoot and resolve issues related to the course management system's status and database"

@@ -116,6 +116,25 @@ import {
   ];
   
   const experiences = [
+
+
+     {
+
+     
+
+       
+       title: "LMS Support Assistant",
+       company_name: "York University (Faculty of Education)",
+       icon: meta,
+       iconBg: "#383E56",
+       date: "Sept 2023 - Present",
+      points: [
+"Craft and execute user-friendly UI/UX designs for course layouts and modules at York University's Department of Education, using HTML and CSS to elevate the online learning journey. Responsibilities included organizing Moodle courses to align with procedures and foster an effective learning environment. I collaborated with students and professors to enhance understanding of the eClass portal's navigation and available support. Additionally, I adeptly troubleshooted and resolved issues pertaining to the course management system's status and database."
+      ],
+     },
+
+
+      
     {
 
      
@@ -137,7 +156,7 @@ import {
       company_name: "American Field Services",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "April 2022 - Present",
+      date: "April 2022 - July 2023",
       points: [
         "Coordination with various students around the world and help them understand the indian traditions of that city",
         "Supporting exchange students towards their career goals and encouragement for better development .",

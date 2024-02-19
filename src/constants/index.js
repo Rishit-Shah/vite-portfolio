@@ -116,6 +116,22 @@ import {
   
   const experiences = [
     {
+
+     
+
+       
+       title: "Bookstore Distribution and Customer Support Assistant",
+       company_name: "York University",
+       icon: YU_Logo,
+       iconBg: "#383E56",
+       date: "Aug 2023 - Sept 2023",
+      points: [
+        "I efficiently managed both online and in-store book orders while offering assistance to diverse customers. Additionally, I oversaw administrative tasks, supervised inventory, and ensured smooth operations. Proficiently handling rental and new books in a library, I maintained accurate financial records. Furthermore, I conducted regular maintenance of bookshelves, organizing them by author and publication dates for optimal accessibility.",
+      ],
+     },
+
+      {
+        
       title: "Organizer/Volunteer",
       company_name: "American Field Services",
       icon: starbucks,

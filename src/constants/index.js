@@ -23,7 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    YU_Logo,
+   
   } from "../assets";
   
   export const navLinks = [
@@ -123,7 +123,7 @@ import {
        
        title: "Bookstore Distribution and Customer Support Assistant",
        company_name: "York University",
-       icon: YU_Logo,
+       icon: meta,
        iconBg: "#383E56",
        date: "Aug 2023 - Sept 2023",
       points: [

@@ -116,6 +116,20 @@ import {
   ];
   
   const experiences = [
+      {
+        title: "Research Assistant",
+       company_name: "York University (Lassonde School of Engineering)",
+       icon: meta,
+       iconBg: "#383E56",
+       date: "Sept 2023 - Present",
+      points: [
+    "Researching on various adaptations of Stable Matching Problem to identify new applications and refine approaches.",
+    " Collaborating with the professor to scale up and enhance the process using Gale-Shapley algorithm and discrete mathematics (probability theories).",
+    "Utilizing diverse theoretical methodologies to support and bolster theoretical research.",
+ 
+      
+      ],
+     },
 
 
      {
@@ -127,7 +141,7 @@ import {
        company_name: "York University (Faculty of Education)",
        icon: meta,
        iconBg: "#383E56",
-       date: "Sept 2023 - Present",
+       date: "Sept 2023 - Apr 2024",
       points: [
     "Develop and implement intuitive UI/UX designs for course layouts and modules at York University's Department of Education, utilizing HTML and CSS to enhance online learning experiences.",
     "Organize Moodle courses to ensure compliance with procedures and create an optimal learning environment.",

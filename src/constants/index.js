@@ -23,7 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    meta1,
+
    
   } from "../assets";
   
@@ -136,7 +136,7 @@ import {
       {
         title: "Program Department Assistant",
        company_name: "School of Continuing Studies- York University",
-       icon: meta1,
+       icon: shopify,
        iconBg: "#383E56",
        date: "June 2024 - Present",
       points: [

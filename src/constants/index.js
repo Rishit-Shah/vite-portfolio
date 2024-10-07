@@ -125,7 +125,8 @@ import {
       points: [
     "Researching on various adaptations of Stable Matching Problem to identify new applications and refine approaches.",
     "Collaborating with the professor to scale up and enhance the process using Gale-Shapley algorithm and discrete mathematics (probability theories).",
-    "Utilizing diverse theoretical methodologies to support and bolster theoretical research.",
+    "Developing an optimized Algorithm improving efficiency by implementing advanced data structures techniques.",
+    "Applying theoretical methodologies to support and validate the algorithm's robustness.",
  
       
       ],
@@ -138,9 +139,9 @@ import {
        iconBg: "#383E56",
        date: "June 2024 - Present",
       points: [
-    "Researching on various adaptations of Stable Matching Problem to identify new applications and refine approaches.",
-    "Collaborating with the professor to scale up and enhance the process using Gale-Shapley algorithm and discrete mathematics (probability theories).",
-    "Utilizing diverse theoretical methodologies to support and bolster theoretical research.",
+    "Efficiently managing and coordinating recruitment data for the department, ensuring accuracy and accessibility of agent and institution information from the database.",
+    "Developing dynamic data charts and visualizations to effectively present the information, facilitating clear and actionable insights.",
+    "Streamlining data management by integrating Python automated scripts for Excel and Salesforce.",
  
       
       ],

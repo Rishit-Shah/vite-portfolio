@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    meta1,
    
   } from "../assets";
   

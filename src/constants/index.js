@@ -131,6 +131,21 @@ import {
       ],
      },
 
+      {
+        title: "Program Department Assistant",
+       company_name: "School of Continuing Studies- York University",
+       icon: meta1,
+       iconBg: "#383E56",
+       date: "June 2024 - Present",
+      points: [
+    "Researching on various adaptations of Stable Matching Problem to identify new applications and refine approaches.",
+    "Collaborating with the professor to scale up and enhance the process using Gale-Shapley algorithm and discrete mathematics (probability theories).",
+    "Utilizing diverse theoretical methodologies to support and bolster theoretical research.",
+ 
+      
+      ],
+     },
+
 
      {
 

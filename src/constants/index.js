@@ -136,7 +136,7 @@ import {
       {
         title: "Program Department Assistant",
        company_name: "School of Continuing Studies- York University",
-       icon: shopify,
+       icon: meta,
        iconBg: "#383E56",
        date: "June 2024 - Present",
       points: [

@@ -20,9 +20,36 @@ const Contact = () => {
     const {name,value}=e.target;
     setForm({...form,[name]:value})
   }
-  const handleSubmit=(e)=>{ e.preventDefault(); setLoading(true); emailjs.send('service_vyf0934', 'template_5pfoc59'), {from_name: form.name, to_name: 'Rishit', from_email: form.email,
-                                                                                                                       to_email: 'shahrishit2003@gmail.com', message: form.message, }, 'wOLSuVSUWm-nERJjq').then((result)=>{setLoading(false); alert("Thank you for your message !, I will get back to you as soon as I can"); 
-                                                                                                                                                                                                                           setForm({ name: '', email: '', message: '' , })}, error() => {setLoading(false) console.log("error"); alert("OOPS! Something went wrong.)})}
+  const handleSubmit = (e) => {
+  e.preventDefault();
+  setLoading(true);
+
+  emailjs
+    .send(
+      'service_vyf0934',
+      'template_5pfoc59',
+      {
+        from_name: form.name,
+        to_name: 'Rishit',
+        from_email: form.email,
+        to_email: 'shahrishit2003@gmail.com',
+        message: form.message,
+      },
+      'wOLSuVSUWm-nERJjq'
+    )
+    .then(
+      (result) => {
+        setLoading(false);
+        alert('Thank you for your message! I will get back to you as soon as I can.');
+        setForm({ name: '', email: '', message: '' });
+      },
+      (error) => {
+        setLoading(false);
+        console.log('Error:', error);
+        alert('OOPS! Something went wrong.');
+      }
+    );
+};
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

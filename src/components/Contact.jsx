@@ -60,7 +60,7 @@ const Contact = () => {
 {/*     <p   className={styles.sectionSubText}> Wanna Reach out to me?
     </p> */}
     <h3 className={styles.sectionHeadText}>
-    Let's get Connected!.
+    Let's get Connected!
     </h3>
 
     <form

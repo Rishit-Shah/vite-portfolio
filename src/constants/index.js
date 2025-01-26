@@ -280,7 +280,7 @@ import {
   
   const projects = [
     {
-      name: "Snake GUI",
+      name: "Snake Game",
       description:
         "Graphical user interface-based platform that allows users to play, free-roam and record their scores on screen, providing a convenient and straightforward game to play and also useful in developing software skills for one's need.",
       tags: [

@@ -118,6 +118,23 @@ import {
   
   const experiences = [
       {
+        title: "IT Intern",
+       company_name: "City of Toronto",
+       icon: meta,
+       iconBg: "#383E56",
+       date: "May 2025 - Present",
+      points: [
+    "Streamline cross-team project execution using Jira",
+    "Optimize system performance with data governance and strategic budgeting.",
+    "Integrate SAP Analytics Cloud to build interactive BI dashboards.",
+    "Enhance insight delivery by 20% over traditional reporting tools.",
+ 
+      
+      ],
+     },
+
+      
+      {
         title: "Research Assistant",
        company_name: "York University (Lassonde School of Engineering)",
        icon: meta,
@@ -138,7 +155,7 @@ import {
        company_name: "School of Continuing Studies- York University",
        icon: shopify,
        iconBg: "#383E56",
-       date: "June 2024 - Present",
+       date: "June 2024 - April 2025",
       points: [
     "Efficiently managing and coordinating recruitment data for the department, ensuring accuracy and accessibility of agent and institution information from the database.",
     "Developing dynamic data charts and visualizations to effectively present the information, facilitating clear and actionable insights.",

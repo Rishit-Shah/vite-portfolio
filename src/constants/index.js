@@ -1,3 +1,4 @@
+import cot from './cot.png';
 import {
     mobile,
     backend,
@@ -23,10 +24,10 @@ import {
     jobit,
     tripguide,
     threejs,
-    cot
+    cot,
 
    
-  } from "../assets";
+  } from "../assets/company";
   
   export const navLinks = [
     {

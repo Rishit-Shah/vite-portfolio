@@ -1,5 +1,4 @@
-import cot from '../assets/company/cot.png';
-
+ 
 import {
     mobile,
     backend,
@@ -28,7 +27,7 @@ import {
 
 
    
-  } from "../assets/company";
+  } from "../assets";
   
   export const navLinks = [
     {

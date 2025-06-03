@@ -24,7 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    cot,
+
 
    
   } from "../assets/company";

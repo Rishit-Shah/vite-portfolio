@@ -123,7 +123,7 @@ import {
       {
         title: "IT Intern",
        company_name: "City of Toronto",
-       icon: cot,
+       icon: starbucks,
        iconBg: "#383E56",
        date: "May 2025 - Present",
       points: [
@@ -215,21 +215,7 @@ import {
       
       ],
      },
-
-      {
-        
-      title: "Organizer/Volunteer",
-      company_name: "American Field Services",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "April 2022 - July 2023",
-      points: [
-        "Coordination with various students around the world and help them understand the indian traditions of that city",
-        "Supporting exchange students towards their career goals and encouragement for better development .",
-        "Organize events and meetups every week for all exchange students to socialize and connect with like-minded peers for the transformation of the program.",
-        "Globalize skills by residing at a traditional house and attend schools, making long lasting connections and outreaching them.",
-      ],
-    },
+ 
     {
       title: "Team Lead",
       company_name: "UNhack Hackathon 2022",
@@ -243,32 +229,7 @@ import {
         "Provided possible solutions and suggestions on storage and reusage of the left-out materials.",
       ],
     },
-    // {
-    //   title: "Web Developer",
-    //   company_name: "Shopify",
-    //   icon: shopify,
-    //   iconBg: "#383E56",
-    //   date: "Jan 2022 - Jan 2023",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
-    // {
-    //   title: "Full stack Developer",
-    //   company_name: "Meta",
-    //   icon: meta,
-    //   iconBg: "#E6DEDD",
-    //   date: "Jan 2023 - Present",
-    //   points: [
-    //     "Developing and maintaining web applications using React.js and other related technologies.",
-    //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-    //     "Implementing responsive design and ensuring cross-browser compatibility.",
-    //     "Participating in code reviews and providing constructive feedback to other developers.",
-    //   ],
-    // },
+ 
   ];
   
   const testimonials = [

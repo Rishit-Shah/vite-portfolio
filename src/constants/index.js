@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    cot,
 
    
   } from "../assets";
@@ -120,7 +121,7 @@ import {
       {
         title: "IT Intern",
        company_name: "City of Toronto",
-       icon: meta,
+       icon: cot,
        iconBg: "#383E56",
        date: "May 2025 - Present",
       points: [

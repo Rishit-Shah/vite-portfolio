@@ -41,7 +41,7 @@ const About = () => {
     <motion.p
     variants={fadeIn("","",0.1,1)}        
     className="mt-4 text-secondary text-[25px] max-w-3xl leading-[30px]" > 
-    I am a third-year Computer Science student at York University (Toronto), with a strong passion for programming and a keen interest in web and application development. I possess excellent communication skills and demonstrate leadership abilities. I am seeking exciting  Internship/CO-OP opportunities for Winter 2025 and Summer 2025 to further refine my skills and gain practical experience.
+    I am a third-year Computer Science student at York University (Toronto), currently enhancing my skills through a IT co-op placement. With a strong passion for programming and expertise in web and application development, I am seeking Internship/Co-op opportunities for Fall 2025 to apply my experience and contribute effectively. I also possess excellent communication skills and leadership qualities that support collaborative success.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10"> 
     {

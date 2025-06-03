@@ -1,4 +1,5 @@
-import cot from './cot.png';
+import cot from '../assets/company/cot.png';
+
 import {
     mobile,
     backend,

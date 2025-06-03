@@ -23,7 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
-    cot,
+    cot
 
    
   } from "../assets";

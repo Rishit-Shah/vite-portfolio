@@ -120,7 +120,7 @@ import {
   
   const experiences = [
       {
-        title: "IT Intern",
+        title: "Business Intelligence Engineer Intern",
        company_name: "City of Toronto",
        icon: starbucks,
        iconBg: "#383E56",

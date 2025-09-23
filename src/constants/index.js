@@ -124,12 +124,12 @@ import {
        company_name: "City of Toronto",
        icon: starbucks,
        iconBg: "#383E56",
-       date: "May 2025 - Present",
+       date: "May 2025 - August 2025",
       points: [
-    "Streamline cross-team project execution using Jira",
-    "Optimize system performance with data governance and strategic budgeting.",
-    "Integrate SAP Analytics Cloud to build interactive BI dashboards.",
-    "Enhance insight delivery by 20% over traditional reporting tools.",
+    "Streamlined cross-team project execution using Jira",
+    "Optimized system performance with data governance and strategic budgeting.",
+    "Integrated SAP Analytics Cloud to build interactive BI dashboards.",
+    "Enhanced insight delivery by 20% over traditional reporting tools.",
  
       
       ],

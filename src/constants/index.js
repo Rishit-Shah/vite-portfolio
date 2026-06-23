@@ -127,7 +127,9 @@ import {
        iconBg: "#383E56",
        date: "Jan 2026 - Present",
       points: [
-    "To be entered",
+    "Develop and maintain Rovr AI’s production RAG pipeline using Python and Azure, implementing document ingestion, chunking strategies, embeddings, and vector search to enable low-latency LLM responses.",
+"Improve Rovr AI response reliability by analyzing prompt behavior and retrieval context to identify bias and hallucination patterns, introducing guardrails to enhance accuracy in production.",
+"Debug and support Rovr AI end-to-end system flows across Angular frontend and backend APIs, using Postman and root-cause analysis to resolve failures and improve overall system stability.",
  
       
       ],

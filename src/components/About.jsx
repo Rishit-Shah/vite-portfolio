@@ -41,8 +41,7 @@ const About = () => {
     <motion.p
     variants={fadeIn("","",0.1,1)}        
     className="mt-4 text-secondary text-[25px] max-w-3xl leading-[30px]" > 
-    I am a third-year Computer Science student at York University (Toronto), seeking Winter 2026 Internship/Co-op opportunities in tech. With a strong foundation in programming, web, and application development, I am driven by the goal of creating solutions that impact a wider audience, not just solving isolated problems. I bring problem-solving ability, clear communication, and a collaborative mindset, allowing me to contribute effectively to innovative projects that make a difference.
-   
+     Final-year Computer Science student at York University (Toronto) with experience in software development and applied machine learning. I build and iterate on web and data-driven systems, focusing on clean architecture, performance, and practical deployment. I’m interested in roles combining software engineering with AI-driven product development.
     </motion.p>
     <div className="mt-20 flex flex-wrap gap-10"> 
     {

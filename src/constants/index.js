@@ -24,6 +24,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    bmo,
 
 
    
@@ -123,7 +124,7 @@ import {
        {
         title: "Software Engineer Intern",
        company_name: "Bank of Montreal",
-       icon: meta,
+       icon: bmo,
        iconBg: "#383E56",
        date: "Jan 2026 - Present",
       points: [

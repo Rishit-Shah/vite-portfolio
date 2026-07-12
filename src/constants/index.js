@@ -42,12 +42,12 @@ import {
       id: "contact",
       title: "Contact",
     },
-    
+
     {
     id: "resume",
     title: "Resume",
     isDownload: true,
-    file: "/resume.pdf",
+    file: "resume.pdf",
   },
   ];
   

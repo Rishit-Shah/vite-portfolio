@@ -48,7 +48,7 @@ const About = () => {
       variants={fadeIn("", "", 0.2, 1)}
       className="mt-6"
     >
-      <VideoModal videoSrc="/About_me.mp4" />
+      <VideoModal videoSrc={`${import.meta.env.BASE_URL}About_me.mp4`} />
     </motion.div>
 
     <div className="mt-20 flex flex-wrap gap-10"> 

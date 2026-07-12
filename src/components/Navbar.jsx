@@ -4,9 +4,11 @@ import {styles} from'../style';
 import { navLinks } from '../constants';
 import{logo, menu, close} from '../assets';
 
+ 
 const Navbar = () => {
   const [active, setActive]= useState("")
   const[toggle,setToggle] = useState(true);
+  const [scrolled, setScrolled] = useState(false); 
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -42,14 +44,20 @@ const Navbar = () => {
     <ul
      className="list-none hidden sm:flex flex-row gap-10">
      {navLinks.map((Link)=>(
-      <li
-      key={Link.id}
-      className={`${ active=== Link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] front-medium cursor-pointer`}
-      onClick={()=> setActive(Link.title)}>
-      <a href={`#${Link.id}`}>{Link.title}
-      </a>
-      </li>
-     ))}</ul>
+            <li
+            key={Link.id}
+            className={`${ active=== Link.title ? "text-white" : "text-secondary"} front-poppins front-medium  cursor-pointer text-[16px]`}
+            onClick={()=> {setToggle(!toggle);
+              setActive(Link.title);}}>
+            {Link.isDownload ? (
+              <a href={Link.file} download>{Link.title}</a>
+            ) : (
+              <a href={`#${Link.id}`}>{Link.title}</a>
+            )}
+            </li>
+            ))}
+     
+     </ul>
      <div className="sm:hidden flex flex-1 justify-end items-centre">
 <img
 src={toggle ? close : menu}
@@ -62,15 +70,18 @@ onClick={()=> setToggle(!toggle)}
 <ul
      className="list-none flex justify-end items-start flex-col gap-4">
      {navLinks.map((Link)=>(
-      <li
-      key={Link.id}
-      className={`${ active=== Link.title ? "text-white" : "text-secondary"} front-poppins front-medium  cursor-pointer text-[16px]`}
-      onClick={()=> {setToggle(!toggle);
-        setActive(Link.title);}}>
-      <a href={`#${Link.id}`}>{Link.title}
-      </a>
-      </li>
-     ))}</ul>
+        <li
+        key={Link.id}
+        className={`${ active=== Link.title ? "text-white" : "text-secondary"} hover:text-white text-[18px] front-medium cursor-pointer`}
+        onClick={()=> setActive(Link.title)}>
+        {Link.isDownload ? (
+          <a href={Link.file} download>{Link.title}</a>
+        ) : (
+          <a href={`#${Link.id}`}>{Link.title}</a>
+        )}
+        </li>
+        ))}
+     </ul>
 </div>
      </div> 
     </div>

@@ -5,7 +5,7 @@ import { styles } from '../style';
 import { services } from '../constants';
 import {fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc'
-
+import VideoModal from './Videomodal'
 
 
 const ServiceCard=({index, title,icon})=>{
@@ -43,6 +43,14 @@ const About = () => {
     className="mt-4 text-secondary text-[25px] max-w-3xl leading-[30px]" > 
      Final-year Computer Science student at York University (Toronto) with experience in software development and applied machine learning. I build and iterate on web and data-driven systems, focusing on clean architecture, performance, and practical deployment. I’m interested in roles combining software engineering with AI-driven product development.
     </motion.p>
+
+    <motion.div
+      variants={fadeIn("", "", 0.2, 1)}
+      className="mt-6"
+    >
+      <VideoModal videoSrc="/About_me.mp4" />
+    </motion.div>
+
     <div className="mt-20 flex flex-wrap gap-10"> 
     {
       services.map((service,index)=> (

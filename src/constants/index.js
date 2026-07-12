@@ -24,7 +24,6 @@ import {
     jobit,
     tripguide,
     threejs,
-    bmo,
 
 
    
@@ -43,6 +42,13 @@ import {
       id: "contact",
       title: "Contact",
     },
+    
+    {
+    id: "resume",
+    title: "Resume",
+    isDownload: true,
+    file: "/resume.pdf",
+  },
   ];
   
   const services = [
@@ -123,8 +129,7 @@ import {
 
        {
         title: "Software Engineer Intern",
-       company_name: "Bank of Montreal",
-       icon: bmo,
+       company_name: "Bank of Montreal", 
        iconBg: "#383E56",
        date: "Jan 2026 - Present",
       points: [
